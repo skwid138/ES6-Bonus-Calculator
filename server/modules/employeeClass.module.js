@@ -23,4 +23,6 @@ class Employee {
 var ourEmployee = new Employee('Carl', new Date('6/7/1999'), 250000, 3)
 console.log('Carl ->', ourEmployee);
 console.log('days function', ourEmployee.daysAtCompany(ourEmployee.startDate));
+
+// export
 module.exports = Employee;
